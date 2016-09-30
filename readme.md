@@ -1,6 +1,6 @@
 # string-includes [![Build Status](https://travis-ci.org/kevva/string-includes.svg?branch=master)](https://travis-ci.org/kevva/string-includes)
 
-> ES6 [`String.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) ponyfill
+> ES6 [`String.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) [ponyfill](https://ponyfill.com)
 
 > Ponyfill: A polyfill that doesn't overwrite the native method
 

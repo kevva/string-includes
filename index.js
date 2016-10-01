@@ -1,11 +1,9 @@
 'use strict';
 
-module.exports = function (str, search, pos) {
-	pos = typeof pos === 'number' ? pos : 0;
-
+module.exports = (str, search, pos) => {
 	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
+		throw new TypeError(`Expected a \`string\`, got \`${typeof str}\``);
 	}
 
-	return str.indexOf(search, pos) !== -1;
+	return str.indexOf(search, typeof pos === 'number' ? pos : 0) !== -1;
 };

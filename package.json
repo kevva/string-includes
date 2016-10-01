@@ -10,10 +10,10 @@
     "url": "github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -26,6 +26,7 @@
     "string"
   ],
   "devDependencies": {
-    "ava": "^0.0.4"
+    "ava": "*",
+    "xo": "*"
   }
 }

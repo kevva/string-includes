@@ -15,7 +15,7 @@ $ npm install --save string-includes
 ## Usage
 
 ```js
-var stringIncludes = require('string-includes');
+const stringIncludes = require('string-includes');
 
 stringIncludes('unicorns and rainbows', 'unicorns');
 //=> true
@@ -30,25 +30,23 @@ stringIncludes('unicorns and rainbows', 'unicorns', 1);
 
 ## API
 
-### stringIncludes(string, searchString, position)
+### stringIncludes(string, searchString, [position])
 
 #### string
 
-*Required*  
 Type: `string`
 
 The string to search in.
 
 #### searchString
 
-*Required*  
 Type: `string`
 
 A string to be searched for.
 
 #### position
 
-Type: `string`  
+Type: `Number`<br>
 Default: `0`
 
 The position in this string at which to begin searching for `searchString`.
@@ -56,4 +54,4 @@ The position in this string at which to begin searching for `searchString`.
 
 ## License
 
-MIT © [Kevin Martensson](http://github.com/kevva)
+MIT © [Kevin Martensson](https://github.com/kevva)
